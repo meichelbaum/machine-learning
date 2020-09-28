@@ -1,10 +1,15 @@
 Accuracies(r^2):
 
 Multiple Linear Regression:  0.6576337570381492
+
 Polynomial Regression:       0.9328974463819352
+
 Support Vector Regression:   0.9188280950736751
+
 Decision Tree Regression:    0.9666654686222395
+
 Random Forest Regression:    0.9671791691324331
+
 
 
 
