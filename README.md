@@ -15,3 +15,9 @@ Random Forest Regression:    0.9671791691324331
 
 Notes:  
 ALWAYS split before scaling to prevent information leaks (https://www.udemy.com/course/machinelearning/learn/lecture/19019768#overview splitting)
+
+Classifier:
+  Loss_funcion="binary_crossentropy", "categorical_crossentropy"  
+  activation=  "adam"               , "softmax"
+Regressor:
+  
