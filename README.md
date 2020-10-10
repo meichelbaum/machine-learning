@@ -16,6 +16,9 @@ Random Forest Regression:    0.9671791691324331
 Notes:  
 ALWAYS split before scaling to prevent information leaks (https://www.udemy.com/course/machinelearning/learn/lecture/19019768#overview splitting)
 
+batch=32 by default
+epochs: watch for residuals
+
 Classifier:
   activation="relu" on hidden layers
   activation="sigmoid" on output layer
