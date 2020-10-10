@@ -22,7 +22,11 @@ epochs: watch for residuals
 Classifier:
   activation="relu" on hidden layers
   activation="sigmoid" on output layer
-  Loss_funcion="binary_crossentropy", "categorical_crossentropy"  
-  activation=  "adam"               , "softmax"
+  compilation:
+    loss="binary_crossentropy", "categorical_crossentropy"  
+    optimizer="adam"          , "softmax"
 Regressor:
   activation="none" on last layer
+  compilation:
+    optimizer="adam" 
+    loss="mean_squared_error"
